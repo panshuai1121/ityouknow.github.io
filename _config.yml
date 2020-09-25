@@ -74,12 +74,6 @@ menus:
     href: /arch.html
     label: 架构
     target: _self
-
-  -
-    href: /link.html
-    label: 友链
-    target: _self
-
   -
     href: /about.html
     label: 关于
