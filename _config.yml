@@ -136,11 +136,6 @@ navs:
         subHref: /python.html
         subLabel: Python 教程
         
-      -
-        subHref: http://www.justdopython.com
-        subLabel: Python 技术
-        target: _blank
-
   -
     href: /archives.html
     label: Archives
@@ -184,11 +179,6 @@ labels:
 
 # selected articles
 classes:
-
-  -
-    href: /cartoon.html
-    name: 不会笑青年
-    describe: 内心沉稳 ，放荡不羁。
 
   -
     href: /life.html
