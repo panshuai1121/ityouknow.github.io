@@ -6,19 +6,18 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title:  潘帅的博客
+title: 潘帅的博客 
 subtitle: 分享技术，品味人生
-name: 潘帅的博客
+name: 潘帅的博客 
 email: 2417880999@qq.com
-description: 本站是潘帅技术分享博客。内容涵盖生活故事、微服务架构、大数据演进、高可用架构、中间件使用、系统监控等相关的研究与知识分享。
-keywords: panshuai,潘帅,PHP,Python,Redis,MongoDB,Docker,生活故事,架构,大数据,一线,FastDFS,开发者,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,IT技术博客,Java,Python,
+description: 本站是潘帅技术分享博客。内容涵盖生活故事、后端技术、微服务架构、大数据演进、高可用架构、中间件使用、系统监控等相关的研究与知识分享。
+keywords: ityouknow,Spring,Spring Boot,Spring Cloud,MongoDB,Jvm,Docker,生活故事,架构,大数据,一线,FastDFS,开发者,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,IT技术博客,Java,Python,
 encoding: "utf-8"
 favicon: favicon.ico 
 
 repository: panshuai1121/panshuai1121.github.io
 github_url: https://github.com/panshuai1121
-url: http://panshuai1121.github.io
-
+url: https://panshuai1121.github.io
 
 ## Gem
 plugins:
@@ -74,6 +73,12 @@ menus:
     href: /arch.html
     label: 架构
     target: _self
+
+  -
+    href: /link.html
+    label: 友链
+    target: _self
+
   -
     href: /about.html
     label: 关于
@@ -130,6 +135,11 @@ navs:
         subHref: /python.html
         subLabel: Python 教程
         
+      -
+        subHref: http://www.justdopython.com
+        subLabel: Python 技术
+        target: _blank
+
   -
     href: /archives.html
     label: Archives
@@ -175,6 +185,11 @@ labels:
 classes:
 
   -
+    href: /cartoon.html
+    name: 不会笑青年
+    describe: 内心沉稳 ，放荡不羁。
+
+  -
     href: /life.html
     name: 我的故事
     describe: 生活就是故事，故事就是生活
@@ -218,17 +233,18 @@ comments_provider: gitalk
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 disqus:
-    username: 
+    username: ityouknow
 # https://imsun.net/posts/gitment-introduction/
- owner: mzlogin
+gitment:
+    owner: ityouknow
     repo: blog-comments
     oauth:
-        client_id: d2e1cbbd298958076462
-        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+        client_id: 61bfc53d957e74e78f8f
+        client_secret: 31c61e66cdcc9ada8db2267ee779d0bdafac434c
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: 'panshuai1121'
-    repo: 'panshuai1121.github.io'
+    owner: panshuai1121 
+    repo: blog-comments
     clientID: 01c69b4bdbdbc141e10d
     clientSecret: 287c9fc8219a6ceba7428bbd9f3aa0e123e193fb
 # 在使用其它评论组件时可点击显示 Disqus
