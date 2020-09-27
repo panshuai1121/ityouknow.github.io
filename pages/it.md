@@ -1,8 +1,8 @@
 ---
 layout: page
-title: 互联网那些事
+title: IT圈的那点事
 titlebar: it
-subtitle: <span class="mega-octicon octicon-organization"></span>&nbsp;&nbsp; IT行业大佬，知名互联网公司的那些故事...
+subtitle: <span class="mega-octicon octicon-organization"></span>&nbsp;&nbsp; 谈古说今IT圈的那些奇闻趣事...
 menu: it
 css: ['blog-page.css']
 permalink: /it

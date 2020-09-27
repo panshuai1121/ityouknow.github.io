@@ -1,0 +1,1653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>潘帅的博客</title>
+    <description>本站是潘帅技术分享博客。内容涵盖生活故事、后端技术、微服务架构、大数据演进、高可用架构、中间件使用、系统监控等相关的研究与知识分享。</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 27 Sep 2020 11:29:34 +0800</pubDate>
+    <lastBuildDate>Sun, 27 Sep 2020 11:29:34 +0800</lastBuildDate>
+    <generator>Jekyll v4.0.1</generator>
+    
+      <item>
+        <title>重新记录PHP</title>
+        <description>
+</description>
+        <pubDate>Sun, 27 Sep 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/php/2020/09/27/php-001.html</link>
+        <guid isPermaLink="true">http://localhost:4000/php/2020/09/27/php-001.html</guid>
+        
+        
+        <category>php</category>
+        
+      </item>
+    
+      <item>
+        <title>PanDownload复活了！60MB/s！</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/fuhuo/fuhuo01.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;（软件下载方式在文末）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;1软件介绍&quot;&gt;1、软件介绍&lt;/h2&gt;
+
+&lt;p&gt;自从 PanDownload 被处理之后&lt;/p&gt;
+
+&lt;p&gt;一直没有超越它的可替代的应用出来&lt;/p&gt;
+
+&lt;p&gt;但是最近，竟然有人接盘了！重新制作上线&lt;/p&gt;
+
+&lt;p&gt;推出了&lt;strong&gt;更加强劲的复活版！&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;放张图，大家先感受下&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;60MB/s！！！&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/fuhuo/fuhuo02.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;我 TM 当场就惊呆了！&lt;/p&gt;
+
+&lt;p&gt;这也太猛了吧！&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/fuhuo/fuhuo03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;手中的菜都掉了&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;该版本是&lt;strong&gt;卢本伟修改版&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;哈哥表示不清楚是不是这个卢本伟&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/fuhuo/fuhuo04.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;反正这个版本很牛逼就是了！&lt;/p&gt;
+
+&lt;h2 id=&quot;2软件特点&quot;&gt;2、软件特点&lt;/h2&gt;
+
+&lt;p&gt;1、允许最高使用 &lt;strong&gt;1024 线程下载&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;2、允许最高 &lt;strong&gt;32 任务同时下载&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;3、修复 PanDownload &lt;strong&gt;全部&lt;/strong&gt;功能&lt;/p&gt;
+
+&lt;p&gt;4、内置&lt;strong&gt;三大下载通道&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;5、使用第三方提取码查询通道，&lt;strong&gt;自动填写提取码&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;6、默认取消 PanDownload 的链接分享&lt;/p&gt;
+
+&lt;p&gt;7、较好的&lt;strong&gt;容灾&lt;/strong&gt;处理（眼神暗示）&lt;/p&gt;
+
+&lt;h2 id=&quot;3软件使用&quot;&gt;3、软件使用&lt;/h2&gt;
+
+&lt;p&gt;1、下载相应压缩包&lt;/p&gt;
+
+&lt;p&gt;2、确认杀软没有删除解压出来的内容&lt;/p&gt;
+
+&lt;p&gt;3、双击运行 PanDownload.exe 即可，如果出什么错误，多开几次，试试管理员运行&lt;/p&gt;
+
+&lt;p&gt;软件打开后&lt;/p&gt;
+
+&lt;p&gt;和之前的 PanDownload 几乎没有区别&lt;/p&gt;
+
+&lt;p&gt;仅仅是左上角的 title 做了修改&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/fuhuo/fuhuo05.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;另外下载时&lt;strong&gt;支持多个下载通道&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/fuhuo/fuhuo06.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;1、伞兵一号通道：被限速账号使用，会有加速效果&lt;/p&gt;
+
+&lt;p&gt;2、伞兵二号通道：未被限速账号使用，不支持远程下载&lt;/p&gt;
+
+&lt;p&gt;3、伞兵三号通道：未被限速账号使用，支持远程下载&lt;/p&gt;
+
+&lt;p&gt;4、伞兵四号通道：被限速账号使用，可满速&lt;/p&gt;
+
+&lt;p&gt;下载资源时&lt;/p&gt;
+
+&lt;p&gt;基本都是维持在 10M 每秒的下载速度&lt;/p&gt;
+
+&lt;p&gt;如果你的宽带够大，下载速度会更快&lt;/p&gt;
+
+&lt;h2 id=&quot;4说在后面&quot;&gt;4、说在后面&lt;/h2&gt;
+
+&lt;p&gt;PanDownload 功能几乎都能使用&lt;/p&gt;
+
+&lt;p&gt;除了你们心心念的度盘搜&lt;/p&gt;
+
+&lt;p&gt;不知道这次能撑到什么时候&lt;/p&gt;
+
+&lt;p&gt;希望卢本伟安康&lt;/p&gt;
+
+&lt;p&gt;毕竟除了维护 PanDownload&lt;/p&gt;
+
+&lt;p&gt;还要打比赛呢&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;软件获取方法,老规矩啦！&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;识别下方二维码，关注后回复&lt;strong&gt;【pan】&lt;/strong&gt;,即可获取下载链接&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/fuhuo/fuhuo07.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 23 Sep 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/it/2020/09/23/fuhuo.html</link>
+        <guid isPermaLink="true">http://localhost:4000/it/2020/09/23/fuhuo.html</guid>
+        
+        <category>it</category>
+        
+        
+        <category>it</category>
+        
+      </item>
+    
+      <item>
+        <title>微盟程序员删库跑路，被判刑六年！</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/shanku/shanku01.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;大家还记得今年年初，微盟&lt;strong&gt;“删库跑路”&lt;/strong&gt;事件吗？&lt;/p&gt;
+
+&lt;h2 id=&quot;1冲动删库&quot;&gt;1、冲动删库&lt;/h2&gt;
+
+&lt;p&gt;微盟那次删库事件，也许是国内删库最严重的事故之一，当天直接造成公司市值损失近10亿，影响超过300万商户。&lt;/p&gt;
+
+&lt;p&gt;事件详细过程，当时也给大家梳理过，不了解经过的朋友可以再次回购：&lt;a href=&quot;https://mp.weixin.qq.com/s/KVjBVHLToLEZCdZdsjsbyw&quot;&gt;《创始人回应，员工删库跑路，公司市值暴跌10亿！》&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/shanku/shanku02.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;那次删库的手段，可不是简单的 Delete form 或者 Drop table 这样的命令。&lt;/p&gt;
+
+&lt;p&gt;而是使用了让&lt;strong&gt;程序员闻风丧胆的Linux系统下文件删除命令&lt;/strong&gt;（怀疑是使用 rm），整体进行了不可逆的删除。&lt;/p&gt;
+
+&lt;p&gt;我们经常会调侃的删库跑路事件，没想到就这样真实的发生在一家上市公司内。&lt;/p&gt;
+
+&lt;h2 id=&quot;2紧急修复&quot;&gt;2、紧急修复&lt;/h2&gt;
+
+&lt;p&gt;删除数据或者表，可能都可以通过数据库日志的方式来还原，如果是直接把数据库服务器干掉了，并且数据备份也没有做好…&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;这种级别的数据恢复，不是一般程序员可以搞定的。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;当时微盟自己也懵逼了，幸好他们使用的是腾讯云，于是整个腾讯云也非常重视这个事情，抽调了国内的顶尖技术人才来帮忙。&lt;/p&gt;
+
+&lt;p&gt;最后恢复方案是，放弃数据库服务器上的数据恢复，直接从数据库备份服务器的硬盘入手，尝试恢复数据。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/shanku/shanku03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;数据中心硬件工程师&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;最后经过7天7夜的时间，终于将所有的数据抢救回来，强烈建议大家看看腾讯云的复盘文章：&lt;a href=&quot;https://mp.weixin.qq.com/s/MFhnc4qPpxxxZY1O-uTk1g&quot;&gt;《微盟数据被删后的七天七夜》&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;可以说是中国互联网上教科书般的操作，对技术人来讲意义重大。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;数据恢复之后，微盟根据评估了平台上商户的损失，给对应的商户做出了赔偿，事件告一段落，直到今天这名程序员被判刑。&lt;/p&gt;
+
+&lt;h2 id=&quot;3判刑6年&quot;&gt;3、判刑6年&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;大家都是成年人，每个人都要为自己的行为负责。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;上海市宝山区人民法院刑事判决书（一审）（8 月 26 日宣判）&lt;strong&gt;摘录&lt;/strong&gt;内容如下：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2020 年 2 月 23 日 18 时 56 分许，&lt;strong&gt;贺某酒后因生活不如意、无力偿还网贷等个人原因，&lt;/strong&gt;在其暂住地上海市宝山区逸仙路 XXX 弄 XXX 号 XXX 室，通过电脑连接公司虚拟专用网络、&lt;strong&gt;登录公司服务器后执行删除任务，将微盟服务器内数据全部删除。&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;p&gt;导致微盟自 2020 年 2 月 23 日 19 时起瘫痪，300 余万用户（其中付费用户 7 万余户）无法正常使用该公司 SaaS 产品，经抢修于 3 月 3 日 9 时恢复运营&lt;strong&gt;（故障时间 8 天 14 个小时）。&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;p&gt;截至 2020 年 4 月 30 日，造成微盟公司支付恢复数据服务费、商户赔付费及员工加班报酬等经济损失共计人民币 &lt;strong&gt;2260 余万元。&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;贺某犯破坏计算机信息系统罪，判处有期徒刑六年。&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;4最后&quot;&gt;4、最后&lt;/h2&gt;
+
+&lt;p&gt;微盟的案例给很多公司提了一个醒，数据的安全备份、权限的隔离操作就是一个公司的生死线。&lt;/p&gt;
+
+&lt;p&gt;偶然事件后面会有很多的必然，我相信到现在，仍然有很多公司的权限管理不到位，容灾方案是摆设。&lt;/p&gt;
+
+&lt;p&gt;但警示意义不言而喻，微盟事件之后，很多有实力的公司动了起来，重新梳理了公司的流程和权限管理。&lt;/p&gt;
+
+&lt;p&gt;至少我身边就看到了好几家。&lt;/p&gt;
+
+&lt;p&gt;对于这名程序员，6年多的时间，职场最黄金的阶段就过去了，很有可能会永远的离开这个行业。&lt;/p&gt;
+
+&lt;p&gt;看到审判书的几个关键字：&lt;strong&gt;不如意、网贷、&lt;/strong&gt;再加上被公司&lt;strong&gt;开除&lt;/strong&gt;，多方因素导致了一个人走向极端。&lt;/p&gt;
+
+&lt;p&gt;在这里，我特别特别的奉劝那些生活不如意的人，&lt;strong&gt;千万千万不要去网贷，&lt;/strong&gt;他只能让你的生活更不如意。&lt;/p&gt;
+
+&lt;p&gt;不知道网贷真的害了多少人，个人对这个事情极度不认可，有事没事远离网贷，&lt;strong&gt;珍爱生活，远离网贷！&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&amp;lt; 文末推荐 &amp;gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;最后给大家推荐一个牛X的开源项目：&lt;strong&gt;免费的编程中文书籍索引，&lt;/strong&gt;就是作者在网上收集了所有&lt;strong&gt;免费计算机中文书籍。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;刚看了一下在 Github 上已经有 7万多人 Star，2 万多人 Fork，书籍大部分来自 stackoverflow 、github 的推荐。&lt;/p&gt;
+
+&lt;p&gt;可以给大家分享一下目录，绝大部分都可以在线阅读。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/shanku/shanku04.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;我大概翻了一下，基本上都是比较经典的计算计书籍，涉及的面也非常广，从操作系统、计算机基础、编程语言等。&lt;/p&gt;
+
+&lt;p&gt;老规矩，感兴趣的朋友，获取开源项目地址，关注下方公号后回复【313】&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 22 Sep 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/life/2020/09/22/shanku.html</link>
+        <guid isPermaLink="true">http://localhost:4000/life/2020/09/22/shanku.html</guid>
+        
+        <category>life</category>
+        
+        
+        <category>life</category>
+        
+      </item>
+    
+      <item>
+        <title>从山村留守儿童到上市公司CEO：李斌凭什么！</title>
+        <description>&lt;blockquote&gt;
+  &lt;table&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td&gt;作者&lt;/td&gt;
+        &lt;td&gt;云游小生&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/libin/libin01.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;2017年的冬天，北京五棵松体育馆人声沸腾，蒸腾着和外面截然相反的温度。&lt;/p&gt;
+
+&lt;p&gt;俞敏洪毫不客气冲着镜头：“他不让我赚钱，能把他给弄死！”&lt;/p&gt;
+
+&lt;p&gt;很少露面的顺丰老总王卫，悄悄出现。&lt;/p&gt;
+
+&lt;p&gt;8架飞机，60节高铁车厢，19家五星级酒店，160辆大巴，800万请来梦龙乐队。&lt;/p&gt;
+
+&lt;p&gt;一场8000万的蔚来ES8发布会，就像那晚的星光一样，璀璨耀眼却扑朔迷离。&lt;/p&gt;
+
+&lt;p&gt;李斌站在舞台中央，远远看，确实有几分历史上今天的感觉。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/libin/libin02.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##01、一起跳&lt;/p&gt;
+
+&lt;p&gt;身价数十亿的李斌，有妻有子，依然在北京租房。&lt;/p&gt;
+
+&lt;p&gt;2014年，李斌创办蔚来汽车。&lt;/p&gt;
+
+&lt;p&gt;去刘强东家里吃饭，15分钟后，刘强东跟投；&lt;/p&gt;
+
+&lt;p&gt;正在北京开人代会的马化腾，与李斌一顿饭后：“给我两个星期时间，走完内部流程。”然后跟投。&lt;/p&gt;
+
+&lt;p&gt;李斌找老对手“车和家”创始人李想，邀他一起造汽车。&lt;/p&gt;
+
+&lt;p&gt;李想沉吟片刻：“你干，我投钱。”&lt;/p&gt;
+
+&lt;p&gt;人们好奇，李斌是如何说服这些大佬们真金白银的投钱？&lt;/p&gt;
+
+&lt;p&gt;其实李斌主要只说了一句话：&lt;/p&gt;
+
+&lt;p&gt;“整个汽车行业这么大的变革浪潮，你不能缺席，这么大的事，你怎么能不在里面呢？”&lt;/p&gt;
+
+&lt;p&gt;于是，中国互联网和资本领域的半壁江山都来了：&lt;/p&gt;
+
+&lt;p&gt;腾讯、百度、京东、小米、联想……
+红杉中国、高瓴资本、愉悦资本、联想、招商银行、TPG、淡马锡……&lt;/p&gt;
+
+&lt;p&gt;56个投资人，就像56个民族一样，手拉手把真金白银投给了蔚来。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;大有种携手共赴深渊的决绝，救不了起码也能递把刀的气势。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;这也成了中国车企最强阵容的一次融资。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/libin/libin03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;蔚来EP9 2017年5月12日德车纽北赛道&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;2016年5月，第一辆蔚来超跑EP9在德国纽北赛道上，跑出了圈速6分45秒90，一举刷新世界最快电动车的记录。&lt;/p&gt;
+
+&lt;p&gt;而上一个记录是保持了八年之久的英国超跑Radical SR8LM ，6分48秒。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;德国纽北赛道：世界所有汽车厂家用来测试运动车辆性能实验地，以凶险著称，23公里，100多个弯道。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;“纽北最快”的称号，对于全球汽车厂商来说，都代表了逼格，代表了速度，代表了品牌推广。&lt;/p&gt;
+
+&lt;p&gt;但赛道上的飞驰人生，只不过是李斌向世界证明：&lt;/p&gt;
+
+&lt;p&gt;蔚来可以造出非常优秀的汽车。&lt;/p&gt;
+
+&lt;p&gt;这款只生产了6辆的超跑，最初的6个投资人，每人一辆。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;自己造的东西自己先用，别人看着才能放心。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;但凡三鹿自家小孩都喝三鹿奶粉，也许就没有三聚氰胺这回事了。&lt;/p&gt;
+
+&lt;p&gt;李斌喝不上三鹿奶粉，赶着牛儿慢悠悠走过乡间的泥泞小路，就是年少时的全部。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/libin/libin04.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;02以死相绝&quot;&gt;02、以死相绝&lt;/h2&gt;
+
+&lt;p&gt;1974年，李斌出生在安徽安庆的太湖县。&lt;/p&gt;
+
+&lt;p&gt;因为湖水大而多，又叫“大湖县”。“大”字在当地发“太”音，久而久之，就叫太湖县。&lt;/p&gt;
+
+&lt;p&gt;山高水长路难行，一直到李斌10岁后，山村才修上公路，通上电。&lt;/p&gt;
+
+&lt;p&gt;父母远在南京，李斌跟老家的外公外婆一起生活。&lt;/p&gt;
+
+&lt;p&gt;放在今天，就是十足的留守儿童。&lt;/p&gt;
+
+&lt;p&gt;李斌外公是十里八乡看牛的一把好手，从外面贩牛，养一阵子再卖出去，赚点差价。&lt;/p&gt;
+
+&lt;p&gt;山里草多，牛儿吃草养的好，李斌就成了放牛娃。&lt;/p&gt;
+
+&lt;p&gt;中学毕业，家里希望李斌考中专。&lt;/p&gt;
+
+&lt;p&gt;80年代，学上一技之长，出来找份工作，吃上商品粮。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;对于生活在山村里的人来说，那就是很体面的生活。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;李斌也说不清楚究竟是什么原因，他只想考大学，甚至绝食相逼。&lt;/p&gt;
+
+&lt;p&gt;父母拗不过同意了，后来李斌成为太湖县文科状元，考进北京大学。&lt;/p&gt;
+
+&lt;p&gt;而命运，也悄然向他打开了大门。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/libin/libin05.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;大学四年，主修社会学，辅修计算机、法律。&lt;/p&gt;
+
+&lt;p&gt;一星期考17门试，打了不下50份工，从编程序到发传单、跑销售、做家教、卖电脑、推销员…..&lt;/p&gt;
+
+&lt;p&gt;多年后功成名就，当他走进一座大楼时，还忍不住频频回头，因为那曾是他做推销员时的老东家。&lt;/p&gt;
+
+&lt;p&gt;大学里，李斌为自己赚了足够的学费，同时成为北大第一个获得计算机学位的文科生。&lt;/p&gt;
+
+&lt;p&gt;毕业时，一人取得三个学士学位。&lt;/p&gt;
+
+&lt;p&gt;全力以赴，是动词，但许多人常常把它当做形容词。&lt;/p&gt;
+
+&lt;p&gt;微信现在流传一句话：凭你努力的程度，远远达不到拼天赋的地步。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;你会看见那些关键时刻，还没有尽全力，你已听了天命。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/libin/libin06.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;03锋芒初露&quot;&gt;03、锋芒初露&lt;/h2&gt;
+
+&lt;p&gt;彼时，互联网已经从大洋彼岸吹开了人们眼前的帘。&lt;/p&gt;
+
+&lt;p&gt;1996年，李斌创建南极科技，为别人注册域名。&lt;/p&gt;
+
+&lt;p&gt;那一年，马云走哪都被骂成骗子，刘强东还在中关村卖光碟。&lt;/p&gt;
+
+&lt;p&gt;大佬们还没成为大佬，每个人都在跌跌撞撞的寻觅。&lt;/p&gt;
+
+&lt;p&gt;那时李国庆已经知道了亚马逊，正想做一个中国的网上书店，李国庆找到师弟李斌，创立科文书业——也就是当当网的前身。&lt;/p&gt;
+
+&lt;p&gt;只过了一年，李斌就选择了离开。&lt;/p&gt;
+
+&lt;p&gt;2000年，李斌和几个北大的师兄弟成立了易车网——国内最早的汽车电商。&lt;/p&gt;
+
+&lt;p&gt;那一年，国家鼓励汽车进入家庭，甚至写进了“十五计划”纲要，成为国家层面的重要战略。&lt;/p&gt;
+
+&lt;p&gt;这样的背景下，从一开始，李斌就拿到了1000万的投资，第一个月就花出去了80万，流量做到了不可思议的一天一百万PV。&lt;/p&gt;
+
+&lt;p&gt;没人看见大风背后的山雨欲来。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/libin/libin07.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;易车成立仅三个月，整个世界一夜之间就像山洪爆发，股票市场一泻千里，全球不计其数的网络公司被冲垮，累累白骨，哀嚎遍野。&lt;/p&gt;
+
+&lt;p&gt;2000互联网经济泡沫破裂。&lt;/p&gt;
+
+&lt;p&gt;易车亏损400万，大股东要求撤资，易车网眼见要倒闭。&lt;/p&gt;
+
+&lt;p&gt;李斌忍不住在会上爆发：帐上还有600万，你们把钱都拿走，亏掉的400万，算我欠你们的债。&lt;/p&gt;
+
+&lt;p&gt;公司盈利、结构都没问题，只是碰上了一阵子危机，怎么能说不干就甩手了呢？&lt;/p&gt;
+
+&lt;p&gt;那时的李斌，赌的就是一口气。&lt;/p&gt;
+
+&lt;p&gt;他用个人贷款还了股东的钱，一个人抗下400万债务。最坏的结果，不过是打工十年还债。&lt;/p&gt;
+
+&lt;p&gt;那时的北京，平均房价才不过4000块钱。&lt;/p&gt;
+
+&lt;p&gt;后来有人说，那400万，还不如在北京买一百套房，如今早赚翻了。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;确实，如果人生全部用钱来衡量，这三十年买房是最合算的事。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/libin/libin08.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;04提剑上马&quot;&gt;04、提剑上马&lt;/h2&gt;
+
+&lt;p&gt;最难的时候，半年发不出工资，身上只有10块钱。&lt;/p&gt;
+
+&lt;p&gt;原来热热闹闹的公司，搬进了居民楼，员工走的走散的散，最后只剩下7个人。&lt;/p&gt;
+
+&lt;p&gt;李斌悄悄地帮别人写软件写代码建网站，苦苦支撑赚钱还债。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;经历过这样时光的人都明白，抗过去也就是扒两层皮，自尊心受点摧残，命还是能保住。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;抗不过去的，就从楼上飞身一跃结束一切。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;一直到2004年，李斌才慢慢恢复元气。&lt;/p&gt;
+
+&lt;p&gt;易车一直在所有的门户网站（新浪、网易等）上发布汽车报价，每个星期找汽车经销商，上门推销“车易通”系统。&lt;/p&gt;
+
+&lt;p&gt;做的做多，积累的数据也越多。&lt;/p&gt;
+
+&lt;p&gt;慢慢地，不再自己花钱上门户网站上发资讯，各类汽车网站开始主动找易车合作。&lt;/p&gt;
+
+&lt;p&gt;经销商更是主动找到易车投放广告。&lt;/p&gt;
+
+&lt;p&gt;终于，在2010年，李斌带着易车在美国上市，成为第一家美股上市的汽车媒体公司。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/libin/libin09.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;拼尽全力挽狂澜的李斌，一举成名。从此成为投资人最信任的创业者。&lt;/p&gt;
+
+&lt;p&gt;在这之后，李斌投资出行领域30多个项目，从想买到看车、买车、用车、卖二手车整个周期，全方位覆盖。&lt;/p&gt;
+
+&lt;p&gt;2017年，李斌再次赴美上市——易鑫金融，一家专为车主提供贷款的公司。&lt;/p&gt;
+
+&lt;p&gt;自此，李斌又补上了汽车生命周期中重要的一环：金融。&lt;/p&gt;
+
+&lt;p&gt;自此，人送李斌外号“出行教父”。&lt;/p&gt;
+
+&lt;p&gt;但他不像马云、雷军一样善于站在聚光灯下接受膜拜。
+直到一篇《摩拜创始人套现15亿：同龄人抛弃你连声招呼都不打》在朋友圈疯狂刷屏，创始人胡玮炜成为网红时，李斌才从幕后一点点浮出水面。&lt;/p&gt;
+
+&lt;p&gt;四年前的一天，胡玮炜带清华大学几个做电助力自行车的学生，进了李斌的家。&lt;/p&gt;
+
+&lt;p&gt;李斌聊了自己的一个想法：做一个拿手机开关锁的自行车。扫码开关锁，一块钱骑一次。&lt;/p&gt;
+
+&lt;p&gt;那几个清华的学生却并不感兴趣。&lt;/p&gt;
+
+&lt;p&gt;李斌看向了胡玮炜：“玮炜，要不你干得了”。&lt;/p&gt;
+
+&lt;p&gt;mobike，摩拜，轰轰烈烈搞了起来。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/libin/libin10.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;媒体喜欢噱头，人们喜欢吃瓜。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;创始人胡玮炜是李斌的傀儡，成了喜闻乐见的新闻。&lt;/p&gt;
+
+&lt;p&gt;李斌一笑：“这个阴谋论太狗血。”&lt;/p&gt;
+
+&lt;p&gt;对于李斌，摩拜是自己一个疯狂的想法，而胡玮炜是有能力去实现的人。&lt;/p&gt;
+
+&lt;p&gt;当美团以27亿全资收购摩拜时，李斌的微博有些悲伤。&lt;/p&gt;
+
+&lt;p&gt;但他清楚，交给美团王兴，摩拜会更好。&lt;/p&gt;
+
+&lt;p&gt;无财无势光棍闯天下，到带着两家公司上市，成为标准的高富帅，李斌闯荡了20余年。&lt;/p&gt;
+
+&lt;p&gt;虽比不上雷军的光环，但也站在了自己领域的巅峰，高声一呼，也自有英雄八方相聚。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;就此收手，也算人生圆满。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;偏偏李斌一眼瞥见北京的雾霾天，和老婆肚子里即将出生的孩子。&lt;/p&gt;
+
+&lt;p&gt;一天，他和雷军聊到深夜，没人知道当时他们说了什么。&lt;/p&gt;
+
+&lt;p&gt;一年后，李斌创建蔚来汽车，雷军第一个跟投。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/libin/libin11.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;05原罪&quot;&gt;05、原罪&lt;/h2&gt;
+
+&lt;p&gt;忧愁，是文人舞文弄墨的配料。&lt;/p&gt;
+
+&lt;p&gt;对于李斌这种人来说，顶多是不痛快，风风火火干就行了。&lt;/p&gt;
+
+&lt;p&gt;2014年，李斌拿出全部身家1.2亿美元，创立蔚来汽车。&lt;/p&gt;
+
+&lt;p&gt;俞敏洪问李斌：“现在特斯拉已经做的非常好了，你要做一个上市公司总共一两亿美元可能都不够。”&lt;/p&gt;
+
+&lt;p&gt;但李斌回道：“我全部投入了一定有人跟我一起做，原因很简单，他们一定能看出来我是全情投入。”&lt;/p&gt;
+
+&lt;p&gt;于是，就有了中国互联网与投资界的半壁江山给“蔚来”站台。&lt;/p&gt;
+
+&lt;p&gt;一直坚定投资李斌的刘二海曾说：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;就算把易车做到极致，&lt;/p&gt;
+
+  &lt;p&gt;中国企业家前100位也排不上他（李斌）的号。&lt;/p&gt;
+
+  &lt;p&gt;但如果蔚来汽车成了大玩家，&lt;/p&gt;
+
+  &lt;p&gt;顶级中国企业家名单前10位必定赫然写着“李斌”二字。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/libin/libin12.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;2018年，中国原油加工量和石油消费量破6亿吨，石油对外依存度逼近70%。&lt;/p&gt;
+
+&lt;p&gt;我们仍是世界上最大的原油进口国。&lt;/p&gt;
+
+&lt;p&gt;摆脱石油的依赖，建立自己的能源结构，是我们国家经济维稳发展的命根子。&lt;/p&gt;
+
+&lt;p&gt;而新能源和电动汽车的出现，给了中国摆脱的机会，也给了中国汽车制造业“弯道超车”的机会。&lt;/p&gt;
+
+&lt;p&gt;汽车电动化，原有的机械传动类零件大量减少，更换成弱电类部件，而这核心技术相通，直接降低了供应链管理难度。&lt;/p&gt;
+
+&lt;p&gt;原本传统车企在内燃机和变速器上的关键技术，几乎卡的没有新生公司可以出头。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;而在新能源汽车风起时，新生公司却可以和传统车企站在同一赛场，甚至同一起跑线上。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/libin/libin13.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;蔚来汽车合肥整车生产线&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;2013年，近300家中国互联网造车公司掀起一波波狂浪。&lt;/p&gt;
+
+&lt;p&gt;有人趁着国家补贴新能源汽车，左手倒右手骗了上亿补贴；&lt;/p&gt;
+
+&lt;p&gt;有人喊着“为了让梦想窒息”，PPT造车惹怒全网，至今不肯回国；&lt;/p&gt;
+
+&lt;p&gt;还有人趁机注册皮包公司，打着新能源造车名号非法集资几十亿……&lt;/p&gt;
+
+&lt;p&gt;这里成了敛财致富的地方，李鬼李逵真假难分。&lt;/p&gt;
+
+&lt;p&gt;于是，蔚来一出世，就自带原罪。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/libin/libin14.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;06车主的自我修养&quot;&gt;06、车主的自我修养&lt;/h2&gt;
+
+&lt;p&gt;“补电要拖辆油车，牛屋投一亿接客，长安街上也趴过窝，股票跌成一块多……”&lt;/p&gt;
+
+&lt;p&gt;蔚来车主们把蔚来所有的槽点，写成一首《电动车主的自我修养》。&lt;/p&gt;
+
+&lt;p&gt;做蔚来的车主，一个个都像对抗全世界的“孤独英雄”。&lt;/p&gt;
+
+&lt;p&gt;就像七八年前，很多人嘲笑用华为手机的人，都是充话费送的一样。&lt;/p&gt;
+
+&lt;p&gt;为了跑新疆，蔚来用汽车将充电车运到新疆，引起一片吐槽。&lt;/p&gt;
+
+&lt;p&gt;李斌纳闷：既然汽油能用车拉，怎么电就不行了？&lt;/p&gt;
+
+&lt;p&gt;李斌想对车主们好一点，在豪华地段开体验中心，投资上亿只为让车主们在这里开party、享受时光，引槽声一片。&lt;/p&gt;
+
+&lt;p&gt;提高用户体验，等于乱花钱。&lt;/p&gt;
+
+&lt;p&gt;长安街上开着车，系统提示升级，车主手一抖点了，结果趴窝，警察来了一拨又一拨；&lt;/p&gt;
+
+&lt;p&gt;2018年美股上市，2019年特朗普打贸易战，威胁要把所有中概股赶出美国股市，蔚来被机构看空，股价直接被打压跌到1.20美元……&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/libin/libin15.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;大浪打来，谁拥有的救生圈越多，谁就有更多活下来的希望。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;蔚来与李斌的救生圈，就是背后强大到几乎无敌的朋友圈。&lt;/p&gt;
+
+&lt;p&gt;56个牛逼的投资人，每人出4千万美金，就是20亿美金。&lt;/p&gt;
+
+&lt;p&gt;然而，即便如此，也仍止不住蔚来亏损的脚步。&lt;/p&gt;
+
+&lt;p&gt;2019年，蔚来成为亏损最严重的车企；&lt;/p&gt;
+
+&lt;p&gt;原本高薪3倍5倍的请人，到了2019年不得不开始裁员。&lt;/p&gt;
+
+&lt;p&gt;这些事，其实也同样曾经发生在特斯拉身上。&lt;/p&gt;
+
+&lt;p&gt;特斯拉从2003年建立到2015年走红，用了12年，亏损了53亿美元。&lt;/p&gt;
+
+&lt;p&gt;一直到了2018年，特斯拉整整亏损了14年。&lt;/p&gt;
+
+&lt;p&gt;马斯克不止一次承认，自己完全要撑不下去了。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;站在大山上，风温柔的时候少，怒号的时候多。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;然而，还是要把所有力气运在自己的掌心，在那上面，是一切希望。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/libin/libin16.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;俞敏洪讲他和李斌在戈壁沙漠徒步，3天120公里。&lt;/p&gt;
+
+&lt;p&gt;别人都把装备放车上，只带点水。李斌不仅背着全部装备，还自我加戏又装了5块板砖。&lt;/p&gt;
+
+&lt;p&gt;30公斤的装备，背着徒步走了第一名。&lt;/p&gt;
+
+&lt;p&gt;俞敏洪说，从那刻起，他就知道李斌做任何事都会成功。&lt;/p&gt;
+
+&lt;p&gt;当他听说李斌创立蔚来汽车，毫不犹豫给了李斌3千万美金。&lt;/p&gt;
+
+&lt;p&gt;有人说，如果蔚来汽车不是李斌创建的，那应该不会有中国创投界的半壁江山为蔚来站台。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“丢了我也认了，如果赚了，那就是跟了一个伟大的创业家在做事。”——俞敏洪&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;2019年，一篇《2019年最惨的人李斌》猝然刷屏。&lt;/p&gt;
+
+&lt;p&gt;那一年的蔚来车主专属演出日时，很多车主自费赶到深圳，100多位深圳当地车主发起顺风车活动，在机场、高铁站免费接待外地车友。&lt;/p&gt;
+
+&lt;p&gt;一位车主说：“能帮蔚来省点就省点，今年蔚来实在是太难了。”&lt;/p&gt;
+
+&lt;p&gt;车主们喜欢把电动汽车叫“奶车”，他们就像是一口一口给这个宝宝喂奶，盼它长大。&lt;/p&gt;
+
+&lt;p&gt;歌的最后唱道：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“无数人注视着你，&lt;/p&gt;
+
+  &lt;p&gt;不要轻易说放弃，&lt;/p&gt;
+
+  &lt;p&gt;用心做事肯定会有人儿伴随，&lt;/p&gt;
+
+  &lt;p&gt;你我都问心无愧，&lt;/p&gt;
+
+  &lt;p&gt;不需后退，不需要后悔。&lt;/p&gt;
+
+  &lt;p&gt;春天有芳菲。”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;自黑自嘲，即便如此，他们仍愿意，或者是选择愿意相信蔚来，会有一个未来。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/libin/libin17.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;07合纵连横&quot;&gt;07、合纵连横&lt;/h2&gt;
+
+&lt;p&gt;创建蔚来时，李斌列了一个长长的名单。&lt;/p&gt;
+
+&lt;p&gt;名单上写满地球上顶级汽车企业，最牛逼的工程师和设计师。&lt;/p&gt;
+
+&lt;p&gt;他拿着名单，一年时间，出国17次，逐一拜访，见面者，多达百人。&lt;/p&gt;
+
+&lt;p&gt;有很多人，成为他的合作伙伴：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;玛莎拉蒂全球 CEO、福特欧洲区总裁、马自达全球董事总经理：马丁·里奇&lt;/p&gt;
+
+  &lt;p&gt;思科全球首席技术官，摩托罗拉全球首席技术官：伍丝丽&lt;/p&gt;
+
+  &lt;p&gt;福特汽车前高管，沃尔沃中国的元老级技术大咖：沈峰&lt;/p&gt;
+
+  &lt;p&gt;联合创始人，前菲亚特中国全球采购中心副总裁、广汽菲亚特总经理：郑显聪&lt;/p&gt;
+
+  &lt;p&gt;……&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;从投资到研发，李斌的布局更像是一场春秋战国的合纵连横。&lt;/p&gt;
+
+&lt;p&gt;上海是总部，德国是整车设计中心；&lt;/p&gt;
+
+&lt;p&gt;北京是软件产品和研发，英国是高性能赛车项目中心；&lt;/p&gt;
+
+&lt;p&gt;南京、昆山、苏州、合肥等地是制造中心……&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;如果有一天李斌跑路，恐怕跑到世界任何一个角落，都有人一路追杀。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/libin/libin18.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;大手笔的投入，因为李斌一开始就明确：5000块钱请不来最好的工程师，5万块钱也造不出好车。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;汽车业整个就像一焚尸炉。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;成车成车的钞票运过来，倒进去，连火星都没来得及看见，呼啦一声全冒了青烟。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;发布会时需要穿西装皮鞋，李斌吐槽：为了造车付出多少代价，平时哪这么穿，都穿运动鞋，多舒服。&lt;/p&gt;
+
+&lt;p&gt;旁边有人接腔：所以乔布斯还是厉害啊，他们才不管这些。&lt;/p&gt;
+
+&lt;p&gt;李斌一句话顶回去：乔布斯厉害，让他造辆车看看。&lt;/p&gt;
+
+&lt;p&gt;手机，就相当于汽车上的一个屏。其实，连个屏都比不上。&lt;/p&gt;
+
+&lt;p&gt;手机不需要考虑零上六七十度或零下二三十度的极端环境。&lt;/p&gt;
+
+&lt;p&gt;但汽车上有3万多个零部件，都需要接受考验。&lt;/p&gt;
+
+&lt;p&gt;马斯克多牛逼的人啊，造完火箭造汽车，人称现实版钢铁侠，也说“汽车行业犹如地狱”。&lt;/p&gt;
+
+&lt;p&gt;我们都没见过地狱，但都见过马斯克几欲落泪的样子。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/libin/libin19.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;08未来快跑&quot;&gt;08、未来快跑&lt;/h2&gt;
+
+&lt;p&gt;特斯拉在上海建厂，国人大悲，国产电车要玩完。&lt;/p&gt;
+
+&lt;p&gt;也有人大喜，特斯拉才是正统电车，其他都是垃圾。&lt;/p&gt;
+
+&lt;p&gt;奇怪的是，蔚来的销量却越来越好。&lt;/p&gt;
+
+&lt;p&gt;直到李斌一语点破：蔚来和特斯拉一样，真正要做的是从汽油车转成电动车。&lt;/p&gt;
+
+&lt;p&gt;虽是对手，但更是队友。&lt;/p&gt;
+
+&lt;p&gt;8月份，中国汽车产销量分别为199.1万辆和195.8万辆，造车新势力13款车的总销量只有5000出头。&lt;/p&gt;
+
+&lt;p&gt;都知道新能源和电动智能汽车是未来的趋势。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;趋势就是风口，风口就是一群猪都能飞上天。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;至于多久才会起风，又有多少猪会摔死，比起年产销2800万台、超过4万亿元的大市场，那都不算什么！&lt;/p&gt;
+
+&lt;p&gt;这是国家的未来，更是一个行业的未来。&lt;/p&gt;
+
+&lt;p&gt;1979年，美国车辆工程师学会(SAE)开办“大学生方程式汽车大赛”，简称FSAE。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/libin/libin20.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;充满热情的年轻人在赛场上，一次次证明自己绝佳的创造力和技术能力。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;让人对每一代大学生的成长——一个国家的未来，多少有点放心。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;参赛的大学生以一年时间，开发一部排气量为610c.c.以下的假日休闲赛车。&lt;/p&gt;
+
+  &lt;p&gt;组装必须简单，可以让小型工厂每天至少生产四部。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;但一直到2008年，中国才有湖南大学的同学们，第一次奔赴美国加州参赛。&lt;/p&gt;
+
+&lt;p&gt;创办蔚来一年后，李斌就与中国工程学会合作，搞了中国自己的“大学生方程式汽车大赛”。&lt;/p&gt;
+
+&lt;p&gt;首届大赛在2015年11月在上海FI赛道举办，简称FSEC（Formula student Electric China）&lt;/p&gt;
+
+&lt;p&gt;这是纯电动赛车，每个大学派 20 个学生，在特定条件下，用时一年造一辆车出来比赛。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;也许中国新能源与电动汽车上承载了太多的愿望，跑的虽然不那么清醒，但特别的快。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;李斌在2009年去德国的方程式汽车大赛，发现那里的大学生和我们的学生，几乎是数量级的差距。&lt;/p&gt;
+
+&lt;p&gt;当十年过去，这个差距已经变得很小很小。&lt;/p&gt;
+
+&lt;p&gt;后来李斌在采访时说：&lt;/p&gt;
+
+&lt;p&gt;这件事情（FSEC）是非常满意的一件事情，做了一件对的事！&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/libin/libin21.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;09写在最后&quot;&gt;09、写在最后&lt;/h2&gt;
+
+&lt;p&gt;乌镇互联网大会，夫人劝李斌：“乌镇就是电影圈里的戛纳，没获奖也要去露个面。”&lt;/p&gt;
+
+&lt;p&gt;李斌回道：“不去，工作太多，去那干吗呢？”&lt;/p&gt;
+
+&lt;p&gt;夫人笑着问：“看一些公众号（文章）说，马云为什么没出现在任何一个饭局上？”&lt;/p&gt;
+
+&lt;p&gt;李斌扭过头看向车窗外：“马云说了，他们没叫我去。”&lt;/p&gt;
+
+&lt;p&gt;沉默了一会，又说：“其实这些东西都没意思。”&lt;/p&gt;
+
+&lt;p&gt;李斌今年46岁，眼角添了很多皱纹，长了许多白发。&lt;/p&gt;
+
+&lt;p&gt;那些我们看到照片，P去了白发，也P去了黑眼圈。&lt;/p&gt;
+
+&lt;p&gt;比他大一岁的贾跃亭，自从去了美国，便杳如黄鹤。&lt;/p&gt;
+
+&lt;p&gt;大他三岁的马斯克，带着亏损十几年的特斯拉开始盈利。&lt;/p&gt;
+
+&lt;p&gt;攻击蔚来与李斌的声音从来没停过。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/libin/libin22.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;有人耻笑他是下一个贾跃亭，也有人叫他是中国的“马斯克”。&lt;/p&gt;
+
+&lt;p&gt;但在美国，马斯克在部分人眼里，仍然是骗子的代名词。&lt;/p&gt;
+
+&lt;p&gt;只是，每个敢于孤注一掷到死方休的创业人，都值得尊敬。&lt;/p&gt;
+
+&lt;p&gt;去看见那些我们不愿做的事情，有这样一帮“骗子、疯子”去做，去坚持。&lt;/p&gt;
+
+&lt;p&gt;而不是眼睛只盯着“套现、成功”，成为制造焦虑的工具。&lt;/p&gt;
+
+&lt;p&gt;这才是我们要一次次读那些名人传记的理由。&lt;/p&gt;
+
+&lt;p&gt;爱恨要带血，死活要壮烈，生命就是伴随痛苦悲壮和血肉横飞。&lt;/p&gt;
+
+&lt;p&gt;然后才能说：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;我来过,我活过！&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ref： 
+《混沌大学内部授课：4000字，告诉你什么是商业变革的核心》&lt;/p&gt;
+
+  &lt;p&gt;《野蛮增长结束 中国汽车产业进入白热化的存量搏杀时代》&lt;/p&gt;
+
+  &lt;p&gt;《 基于ANSYS Workbench 的FSEC 车架有限元分析》&lt;/p&gt;
+
+  &lt;p&gt;《蔚来李斌：去年最惨人物的称号，让我自由了 》&lt;/p&gt;
+
+  &lt;p&gt;《发新车、唱黑歌，蔚来用这种方式迎接2020》&lt;/p&gt;
+
+  &lt;p&gt;《易鑫16日香港敲钟，李斌再写11月故事》&lt;/p&gt;
+
+  &lt;p&gt;《遇见大咖：李斌》&lt;/p&gt;
+
+  &lt;p&gt;《门徒李斌》&lt;/p&gt;
+
+  &lt;p&gt;《李斌们的造车赌局》&lt;/p&gt;
+
+  &lt;p&gt;《一群电动车主的自我修养》&lt;/p&gt;
+
+  &lt;p&gt;《财经专访：遇见李斌》&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;PS:&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;p&gt;①更多大佬解读，公号内回复对应关键字：&lt;/p&gt;
+
+  &lt;table&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;strong&gt;宿华&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;何小鹏&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;李想&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;张汝京&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;任正非&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;李国庆&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;蒋凡&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;周鸿祎&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;大衣哥&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;刘强东&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;傅盛&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;古天乐&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;科比&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;34岁&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;马斯克&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;传奇黑客&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;张一鸣&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;雷军&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;求伯君&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;张小龙&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;罗永浩&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;王思聪&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;孙宇晨&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;陆奇&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+
+  &lt;table&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td&gt;②更多公司发家史解读，公号内回复对应关键字：&lt;strong&gt;拼多多&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;soul&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;sun&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;兄弟连&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;谷歌&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;百度&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;沃尔玛&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+
+  &lt;table&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td&gt;③更多精彩故事挖掘，公号内回复对应关键字：&lt;strong&gt;删库跑路&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;黑暗法则&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;男女手册&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;非典奇迹&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;韩国邪教&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;被抢身亡&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+
+  &lt;table&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td&gt;④更多内部匿名爆料，公号内回复对应关键：&lt;strong&gt;006&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;007&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;008&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;009&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;013&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;014&lt;/strong&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;strong&gt;015&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Tue, 22 Sep 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/life/2020/09/22/libin.html</link>
+        <guid isPermaLink="true">http://localhost:4000/life/2020/09/22/libin.html</guid>
+        
+        <category>life</category>
+        
+        
+        <category>life</category>
+        
+      </item>
+    
+      <item>
+        <title>大 反 转 ! ! !</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/fanzhuan/fanzhuan01.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;这个世界从来都不缺戏剧性。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1一波三折的微信&quot;&gt;1、一波三折的微信&lt;/h2&gt;
+
+&lt;p&gt;上周五的时候，美国商务部官网发布文章称：&lt;/p&gt;
+
+&lt;p&gt;针对特朗普总统于2020年8月6日签署的行政命令，&lt;strong&gt;禁止与WeChat和TikTok相关来往交易，&lt;/strong&gt;以维护美国的国家安全。&lt;/p&gt;
+
+&lt;p&gt;内容详见周天写的文章：&lt;a href=&quot;https://mp.weixin.qq.com/s/kujvo-zpQRLrHXp1lQuF4w&quot;&gt;《美国还是对 Tiktok、微信下手了》&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;这意味着美国500多万华人，将不能在美国境内使用微信，这对很多在美国的华人和国内联系造成了巨大的不便。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/fanzhuan/fanzhuan02.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;腾讯为企业微信不受到禁令的影响，紧急将美国的企业微信改名为 wecom，&lt;strong&gt;国内很多媒体说是微信改名来避免禁令其实是误解。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;美国人也不是傻X，国内很多媒体报道此事有添油加醋的成分，说是微信耍了美国，这不是明显的自 Hgih 吗？&lt;/p&gt;
+
+&lt;p&gt;但比较好的是，大部分人还是比较清醒的，我看知乎上的讨论也比较客观，大家都能意识到腾讯遇到了什么。&lt;/p&gt;
+
+&lt;p&gt;我估计在腾讯都做好了最坏的打算，结果这个时候，&lt;strong&gt;大反转来了。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2微信的大反转&quot;&gt;2、微信的大反转&lt;/h2&gt;
+
+&lt;p&gt;据路透社刚刚发布的报道，美国商务部针对WeChat在美国地区运营的禁令被&lt;strong&gt;美国一名法官宣布搁置。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;这是怎么回事？在美国有一个华人组织叫USWUA，官网是：https://uswua.org/，官方首页就可以看到倡议书。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/fanzhuan/fanzhuan03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;大概的情况就是，USWUA华人组织代表美国的华人，来起诉美国政府的总统令，如果在美国禁止了微信的使用，对他们的日常生活也带来了比较大的影响。&lt;/p&gt;
+
+&lt;p&gt;于是他们组织捐款、聘请律师，在当地法院进行上诉，当地法院也是罕见周六开庭，可见此案的意义有多么重大！&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;本次事件是在美华人维权历史上的里程碑事件，意义深远。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;法庭上，对于特朗普当局所谓「WeChat 威胁美国国家安全」的指控，劳瑞尔认为这一说法「不够具体」，&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;也无法说明针对 WeChat 的禁令将如何保护美国的国家利益。 随后，劳瑞尔在 20 日对美国商务部颁布的这一实施细则发布了临时禁令。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;也就是说微信暂时又不会在美国被封了，虽然只是一个临时的禁令，但知道能够拖到美国大选结束，也许会迎来转机。&lt;/p&gt;
+
+&lt;p&gt;对了法官长这个样子，看起来就是一个很 nice 的人。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/fanzhuan/fanzhuan04.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;3再来看tiktok&quot;&gt;3、再来看Tiktok&lt;/h2&gt;
+
+&lt;p&gt;在距离TikTok从美国应用市场下架就剩20个小时的时候，据美国彭博社报道，特朗普总统19日表示，“从原则上而言”他已经批准TikTok和甲骨文等美国公司的交易。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/fanzhuan/fanzhuan05.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;协议有几个关键点：&lt;/p&gt;
+
+&lt;p&gt;1、美国商务部将推迟TikTok禁令一周。原本定于本周日生效的禁令本来会迫使苹果和Google将TikTok从其美国应用程序商店中下架。&lt;/p&gt;
+
+&lt;p&gt;2、Tiktok总部继续留在美国，新成立一家 TikTok Global 公司，新公司最多在当地创建2.5万个工作岗位。&lt;/p&gt;
+
+&lt;p&gt;甲骨文和沃尔玛将参加TikTok Global的上市前募股，可以占有上市前最高20%的股份，剩余的80%则将归字节跳动持有。&lt;/p&gt;
+
+&lt;p&gt;3、合作模式类似苹果在中国由云上贵州进行的数据安全合规合作。由于TikTok 美国业务在加州洛杉矶设有办公室，该方案也被称为“云上加州”。&lt;/p&gt;
+
+&lt;p&gt;也就是说新的公司仍然还是属于字节跳动来控股，但是字节跳动也做了一些妥协，从本质上避免美国人谈的数据安全问题。&lt;/p&gt;
+
+&lt;p&gt;是一个大家都比较能接受的折中方案。&lt;/p&gt;
+
+&lt;h2 id=&quot;4张一鸣要感谢国家在特殊时刻推了他一把&quot;&gt;4、张一鸣要感谢国家，在特殊时刻推了他一把！&lt;/h2&gt;
+
+&lt;p&gt;曾经一度要将五眼联盟国家的Tiktok都要出售给微软，并且在谈判的过程中，特朗普不断的威胁压价！&lt;/p&gt;
+
+&lt;p&gt;在张一鸣马上要被迫以非常不公平的价格（低价）出售Tiktok的时候，国家出手了！&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;限制将中国的推荐算法出口到国外！&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/fanzhuan/fanzhuan06.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;不了解前面经过的朋友，可以先看看之前写的文章&lt;a href=&quot;https://mp.weixin.qq.com/s/2Kup02kSOALeYwJQ0L75qA&quot;&gt;《TikTOK事件，真是一波又三折！》&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;其实这场竞争本来就不只是一个公司的事情，背后站在世界上最强大的两个国家，在博弈中寻找最佳的方式。&lt;/p&gt;
+
+&lt;p&gt;另外，&lt;strong&gt;张一鸣要感谢国家，在特殊时刻推了他一把！&lt;/strong&gt;才有了后面的大家都妥协后可以接受的一个结果。&lt;/p&gt;
+
+&lt;p&gt;美国公司占据一部分股份，数据保存在美国当地并受到当地监管，并Tiktok在美国上市创造2.5万个本地岗位。&lt;/p&gt;
+
+&lt;p&gt;虽然还是有点不爽，但避免了完全失去的风险。目前的方案，应该算是各方都能接受的一个中间状态。&lt;/p&gt;
+
+&lt;h2 id=&quot;5数据主权&quot;&gt;5、数据主权&lt;/h2&gt;
+
+&lt;p&gt;目前各个国家都越来越重视数据主权。&lt;/p&gt;
+
+&lt;p&gt;数据主权是什么意思呢？大白话讲在我国家产生的数据，主权归我们国家所有，你可以拿到外国去经营或者使用。&lt;/p&gt;
+
+&lt;p&gt;现在世界级的互联网公司众多，其中的每一个公司可能都会覆盖几十个甚至上百个国家。&lt;/p&gt;
+
+&lt;p&gt;他们可以用这些数据做一些广告分析，甚至可以根据某个国家的数据来推断出未来即将发生的某些事情。&lt;/p&gt;
+
+&lt;p&gt;但是从本质上来讲，跨国巨头只是拥有这数据的使用权，这些数据从哪个国家产生，就应该是哪个国家的数据主权所有。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/fanzhuan/fanzhuan07.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;在欧洲，谷歌由于对数据使用不当，已经被欧盟的一些国家罚得灰头土脸，数据主权的重视程度越来越高。&lt;/p&gt;
+
+&lt;p&gt;我感觉像苹果的贵州方案、tiktok的加州方案，很可能在未来会成为一种趋势，在哪个国家产生的数据必须存储到哪个国家，不可非法窃取使用。&lt;/p&gt;
+
+&lt;h2 id=&quot;6最后&quot;&gt;6、最后&lt;/h2&gt;
+
+&lt;p&gt;最后，虽然 Tiktok 和微信的事件，还存在着一些不确定性，但是很明显感觉到一个强大的国家是多么的重要。&lt;/p&gt;
+
+&lt;p&gt;不然就算你把公司做大了，也会有办法让你出售资产，或者恶意禁止的方式在阻碍公司做强做大。&lt;/p&gt;
+
+&lt;p&gt;其实大家也可以看看，世界上目前大的互联网公司或者企业，基本上也都来来自有实力的国家，不然他们很难顺利发展起来。&lt;/p&gt;
+
+&lt;p&gt;因为他们有一万种方法，让你轻松的死在路上，如果背后没有一个强大的国家作为支撑，很难走的更远。&lt;/p&gt;
+
+&lt;p&gt;字节跳动是目前是中国国际化做的最好的公司，走在最前面攻城略地的同时，难免会遇到各种各样新的问题。&lt;/p&gt;
+
+&lt;p&gt;我相信像这样的冲突以后还会有，中国公司的国际化也才刚刚开始，随着国家实力不断上升，未来还有更多的字节跳动走出来。&lt;/p&gt;
+
+&lt;p&gt;整个世界也是在不断博弈中，往前走…&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&amp;lt; 文末推荐&amp;gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;最后，听说&lt;a href=&quot;https://mp.weixin.qq.com/s/0D51_cuQRwaplxeVx2V_TA&quot;&gt;PanDownload复活了！下载速度高达60MB/s！&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/fanzhuan/fanzhuan08.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;网友尝试后反馈，基本都是维持在 10M 每秒的下载速度，如果你的宽带够大，下载速度会更快。&lt;/p&gt;
+
+&lt;p&gt;希望这次这个软件可以活的更久一些，感兴趣的朋友，在没有删除之前请尽快下载，关注下方公号后回复【pan】&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;识别下方二维码，关注后回复&lt;strong&gt;【pan】&lt;/strong&gt;,即可获取下载链接&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/fanzhuan/fanzhuan09.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 20 Sep 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/life/2020/09/20/fanzhuan.html</link>
+        <guid isPermaLink="true">http://localhost:4000/life/2020/09/20/fanzhuan.html</guid>
+        
+        <category>life</category>
+        
+        
+        <category>life</category>
+        
+      </item>
+    
+      <item>
+        <title>突发，美国还是对Tiktok、微信下手了！</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/xiashou/xiashou01.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;我们可能都太过于乐观了…&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1侥幸的乐观心理&quot;&gt;1、侥幸的乐观心理&lt;/h2&gt;
+
+&lt;p&gt;到现在为止，&lt;strong&gt;很多人对这场对抗还抱有侥幸心理。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;昨天，很多媒体还在报道：美国司法部让步：该国用户可以正常使用微信。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/xiashou/xiashou02.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;最近，字节跳动上报了和甲骨文的最新合作方式，甲骨文负责数据合规，并且占Tiktok国际的20%股份。&lt;/p&gt;
+
+&lt;p&gt;Tiktok承诺将美国作为国际总部，在当地创造大量的工作岗位，并计划12个月内纽约上市。&lt;/p&gt;
+
+&lt;p&gt;可以说Tiktok求生欲真的很强，做了很多妥协既不违背中国法律，也拿出了很大的诚意去做推进此情。&lt;/p&gt;
+
+&lt;p&gt;于是很多媒体预测，特朗普不敢禁止Tiktok，因为在美国有四分之一的用户都在使用Tiktok，禁止会影响特朗普的选票。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;结果今天，禁令到了…&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2美国商务部禁止下载-tiktok-和微信&quot;&gt;2、美国商务部：禁止下载 TikTok 和微信&lt;/h2&gt;
+
+&lt;p&gt;刚刚，美国商务部官网发布文章称，针对特朗普总统于2020年8月6日签署的行政命令，&lt;strong&gt;禁止与WeChat和TikTok相关来往交易，&lt;/strong&gt;以维护美国的国家安全。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/xiashou/xiashou03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;这意味着，所有美国用户将不再能够从苹果和谷歌应用商店下载TikTok或微信，届时美国境内将禁止通过微信进行资金转账或付款。&lt;/p&gt;
+
+&lt;p&gt;就微信而言，这些限制还将阻止任何公司向微信提供互联网托管、内容交付网络、互联网传输或对等服务，或在美国其他软件或服务中使用该应用的代码。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;对TikTok提供服务的同等限制将于11月12日生效。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;TikTok目前正在与美国软件商甲骨文(Oracle)就收购事宜进行谈判，并且有可能宣布一项缓和特朗普政府对国家安全担忧的交易。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/xiashou/xiashou04.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;商务部在公告中表示，总统将解决TikTok的国家安全担忧问题的时限设至11月12日，&lt;strong&gt;如果获得解决，行政令中的限制将被解除。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Tiktok 虽然留了一点点悬念，但并不乐观…&lt;/p&gt;
+
+&lt;h2 id=&quot;3放弃幻想准备战斗&quot;&gt;3、放弃幻想，准备战斗！&lt;/h2&gt;
+
+&lt;p&gt;昨天918纪念日，国防部发布了一条消息：&lt;/p&gt;
+
+&lt;p&gt;今天开始，中国人民解放军东部战区在台海附近组织实战化演练。这是针对当前台海形势、维护国家主权和领土完整所采取的正当必要行动。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;这里是需要强调的是演练，而不是演习！&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/xiashou/xiashou05.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;近期，印度国防部长为了吹嘘业绩，面对议员们做出通报：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“ 6月15日在加勒万发生一场对峙，印度军队对中国军队造成了重大人员伤亡。”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/xiashou/xiashou06.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;民众一片哗然。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;环球时报总编辑胡锡进微博发文：&lt;/p&gt;
+
+&lt;p&gt;在6月15日中印加勒万冲突中，中方的一线解放军毫不畏惧，在战斗中搏斗到了最后一刻。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;在此次冲突中一名军人牺牲。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;我们刻意保持低调是为了和平，但是如果对方还是没有一点觉悟的话，62年的情况有可能会再一次上演。&lt;/p&gt;
+
+&lt;p&gt;说到底，不管是东南方向还是西北方向的问题，根本都还是中美关系，不然他们怎么敢跳这么高。&lt;/p&gt;
+
+&lt;p&gt;关于什么技术、互联网无国界这件事，洗洗睡吧，到了这个阶段，我们也不是什么软柿子：&lt;strong&gt;不惹事不怕事！&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;放弃幻想，准备战斗！&lt;/strong&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 19 Sep 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/life/2020/09/19/xiashou.html</link>
+        <guid isPermaLink="true">http://localhost:4000/life/2020/09/19/xiashou.html</guid>
+        
+        <category>life</category>
+        
+        
+        <category>life</category>
+        
+      </item>
+    
+      <item>
+        <title>李开复捅了一个大窟窿！紧急否认三连：我不是、我没有、你瞎说 ...</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/likaifu/likaifu01.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;最近，李开复惹上了一个大麻烦。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1人脸数据&quot;&gt;1、人脸数据&lt;/h2&gt;
+
+&lt;p&gt;9月12日，李开复受邀参加HICOOL全球创业者峰会，李开复作为第四位嘉宾在上午10:40-11:05期间进行演讲。&lt;/p&gt;
+
+&lt;p&gt;在分享创新工场2013年投资旷视科技的经验时，表示创新工场曾帮助旷视科技从美图、蚂蚁金服拿到大量人脸数据。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/likaifu/likaifu02.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;开复老师的原话是这样的：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;旷视科技是我们在8年前投资的一个企业，今天是一个很快就有希望IPO的巨头了，它的发展路径很独特的，是一群技术人，没有任何产品和行业经验，靠着自己独特的技术能力来创业。我们早期帮助他们寻找了合作伙伴，包括美图、蚂蚁金服，让他们拿到了大量人脸数据，帮助他们分析各个行业怎么切入。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;李开复这里面的一句话，“让他们拿到了大量人脸数据”，引爆了大家的敏感神经。&lt;/p&gt;
+
+&lt;p&gt;因为人脸数据属于我们的生物信息，如果一旦泄漏用在非法渠道，将会产生很多重大的问题！&lt;/p&gt;
+
+&lt;p&gt;比如在很多成人网站，竟然会看到很多明星的脸孔…，很多就是通过AI换脸来合成的…&lt;/p&gt;
+
+&lt;h2 id=&quot;2反转出现&quot;&gt;2、反转出现&lt;/h2&gt;
+
+&lt;p&gt;李开复的演讲被传播到网上之后，没过多久就上了热搜，蚂蚁金服、旷视科技迅速针对报道进行了回复。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/likaifu/likaifu03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;其中蚂蚁金服的反应最为迅速，20点08分发微博表示，蚂蚁和旷世合作的时候从未与李开复接触，并且也没有将任何数据给旷视科技。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;简单总结就是：我不是，我没有，别瞎说…&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/likaifu/likaifu04.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;面对巨大的舆论压力，李开复发微博道歉。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/likaifu/likaifu05.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;3怎么看&quot;&gt;3、怎么看？&lt;/h2&gt;
+
+&lt;p&gt;这一来一回的信息对比，我们至少可以肯定几点信息：&lt;/p&gt;
+
+&lt;p&gt;1、蚂蚁金服和旷世科技有合作。&lt;/p&gt;
+
+&lt;p&gt;2、蚂蚁金服确实用了旷世科技的人脸相关的算法。&lt;/p&gt;
+
+&lt;p&gt;3、李开复老师的回复提到，有可能是将算法部署了蚂蚁的服务器上来运算，从而提升算法的应用能力。&lt;/p&gt;
+
+&lt;p&gt;我个人一直对李开复老师特别敬佩，像这样一位行业里面的超级大佬，讲话的时候都是很谨慎的，所以开复老师的话大概不会差太多。&lt;/p&gt;
+
+&lt;p&gt;同时，这个场景也让人不得不想起来，李彦宏的那次演讲：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;我想中国人可以更加开放，对隐私问题没有那么敏感，如果他们愿意用隐私交换便捷性，很多情况下他们是愿意的，那我们就可以用数据做一些事情。&lt;/p&gt;
+
+  &lt;p&gt;但我们要遵循一定的原则，如果数据会使用者收益，他也愿意，我们就会去做，这是我们的基本原则，这就是什么该做的，什么不该做。” ——李彦宏 2018年3月26日
+国内互联网巨头在大赚特赚的同时，对公民的隐私保护却没有做到足够的重视，这次事件只是露出来一角。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;网上80%的网友都表示不信任…&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;4警惕&quot;&gt;4、警惕&lt;/h2&gt;
+
+&lt;p&gt;大家还记得我上次写的文章&lt;a href=&quot;https://mp.weixin.qq.com/s/YR8v9OARtktWK2eUTepQTA&quot;&gt;《美女裸聊一时爽，裸聊结束火葬场》&lt;/a&gt;，文章里面的app就是一个空壳，专门收集用户的隐私。&lt;/p&gt;
+
+&lt;p&gt;然后利用这些隐私来敲诈网友，以达到非法获益的目的，虽然这个案例比较极端，但是关于隐私泄露的案件怎么严管都不过分。&lt;/p&gt;
+
+&lt;p&gt;在人工智能时代，数据就是一切，互联网机器可以利用大数据分析出你的喜欢、行为、习惯，&lt;strong&gt;可以真正做到比你还了解你。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;然后商家在利用这些数据营销，比如用携程来定酒店，携程会根据不同的人来展示不同的价格。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/likaifu/likaifu06.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;比如我在京东或者天猫随意浏览了一件商品，过一天后只要我打开不同网站，都会很默契的给我推荐同样类型的商品。&lt;/p&gt;
+
+&lt;p&gt;在国外对数据的监管同样严格，2018年3月，数据分析公司Cambridge Analytica因不当取得5000万Facebook用户数据之丑闻而闻名，随后破产。&lt;/p&gt;
+
+&lt;h2 id=&quot;5监管&quot;&gt;5、监管&lt;/h2&gt;
+
+&lt;p&gt;国内的隐私保护其实一直在进行。&lt;/p&gt;
+
+&lt;p&gt;大家有没有发现，这两天关于盗版或者其它侵犯隐私的网站越来越少了，这其实和前几年生效的一则法律相关。&lt;/p&gt;
+
+&lt;p&gt;2017年6月1日起开始实行《中华人民共和国网络安全法》（简称《网络安全法》），&lt;strong&gt;贩卖50条个人信息即可入罪。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;极大的震慑了一大批公司。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;但是目前关于隐私保护的法律，还不是非常的完善，导致互联网各种人肉事件非常猖獗。&lt;/p&gt;
+
+&lt;p&gt;希望国家可以在这方面，和欧洲最严厉的互联网隐私保护法律——《通用数据保护条例》看齐，让人们可以安心的保护个人隐私。&lt;/p&gt;
+
+&lt;p&gt;我们在享受大数据、人工智能带来便利的同时，也应该警惕由此引发的一些列问题，防止数据越界、隐私越界、价值观越界。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;数据和技术都是无罪的，但是如果没有合理的去使用，产生的危害也是巨大的。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&amp;lt; 推荐阅读 &amp;gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;写这篇文章的时候，我收集了这次事件的相关内容：&lt;/p&gt;
+
+&lt;p&gt;1、李开复当时关于这段的演讲视频。&lt;/p&gt;
+
+&lt;p&gt;2、HICOOL全球创业者峰会完整录像，保护雷军、王兴、李开复等诸多大佬的演讲。&lt;/p&gt;
+
+&lt;p&gt;3、网上关于此事件的热议。&lt;/p&gt;
+
+&lt;p&gt;感兴趣的朋友，关注下方公众号，回复：李开复&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/likaifu/likaifu07.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;长按上方二维码 2 秒,回复「李开复」即可获取&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Tue, 15 Sep 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/life/2020/09/15/likaifu.html</link>
+        <guid isPermaLink="true">http://localhost:4000/life/2020/09/15/likaifu.html</guid>
+        
+        <category>life</category>
+        
+        
+        <category>life</category>
+        
+      </item>
+    
+      <item>
+        <title>感觉身边都是一群没理想的人，如同废柴一般...</title>
+        <description>&lt;p&gt;有一天，在无意中闲逛 V 站，发现了这样一个随想，大家讨论的非常热烈。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/lixiang/lixiang01.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;作者感觉身边都是一群没理想的人，如果废人一样…&lt;/p&gt;
+
+&lt;h2 id=&quot;1网友热评&quot;&gt;1、网友热评&lt;/h2&gt;
+
+&lt;p&gt;在这个提问下的回答，也很有意思。&lt;/p&gt;
+
+&lt;p&gt;有人说，都大学毕业了，还在谈理想，真的太 Naive 了&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;大学的时候这样想，可能是积极向上 毕业了还这样想，真的 Naive 了。他们家庭条件比你好的话，咸鱼也是一种生活方式啊。他们家庭条件比你差的话，少很多人竞争岂不美哉。&lt;/p&gt;
+
+  &lt;p&gt;A的回复&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;有的说，每个人的理想是不一样的，不可妄加评判。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;什么叫有“理想”？什么叫“废人”？是发大财，成为“人上人”吗？还是“升职加薪、当上总经理、出任 CEO 、迎娶白富美、走上人生巅峰”？我看主要问题是你没有明确生活目标，也没行动起来去做自己认为有价值的事，太清闲，太急切于对意义的思考，导致对别人七想八想，还妄加评断。&lt;/p&gt;
+
+  &lt;p&gt;S的回复&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;还有一个更有趣的定义，那些堕落的人承受的压力，比那些奋斗的人更大。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;看了一个有趣的定义。&lt;/p&gt;
+
+  &lt;p&gt;堕落的定义：做一些不被社会所接受，无法对社会产生比较多价值的事。奋斗的定义：尽力做一些对社会有价值的事，被社会所接受。我个人感觉还是奋斗比较容易，人作为社会动物，无疑容易被社会意志所左右。&lt;/p&gt;
+
+  &lt;p&gt;因此我并不鄙视，甚至还有点尊重那些自甘堕落的人，他们所受的社会压力，可比房价压力还高啊。但是，我还是一个等级低的人类，跟随着社会的意志而奋斗。我认为这里的堕落应该替换成颓废，堕落太宽泛了。&lt;/p&gt;
+
+  &lt;p&gt;仔细想想确实是这样，真的懒得下去的人，承受的压力比我们大得多。我是不是潜意识里不想承受这种压力，所以选择了克制懒，而去奋斗呢&lt;/p&gt;
+
+  &lt;p&gt;E的回复&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;2我们都太忙了&quot;&gt;2、我们都太忙了&lt;/h2&gt;
+
+&lt;p&gt;这两天正在看吴军的《格局》，书中提到当人类是猿人的时候，大多数的时间都是在晒太阳，挠痒痒。&lt;/p&gt;
+
+&lt;p&gt;只需要很少的工作时间，就可以养活一大家子人了，所以大家日常最多的事情就是娱乐，而不是工作。&lt;/p&gt;
+
+&lt;p&gt;到了农业社会，粮食可以养活更多的人口，由于阶级的压迫，农民反而用了更多的时间在工作，而不是生活。&lt;/p&gt;
+
+&lt;p&gt;到了如今的社会，粮食物质都极为的丰富，而人类的工作时间确是史无前例的越来越长，比如最典型的 996 。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;我们都太忙了…&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/lixiang/lixiang02.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;忙着工作、忙着学习、忙着挣钱….，甚至就连休息就很忙，忙着去看电影，忙着去景点走马观花，忙着来一把王者农药。&lt;/p&gt;
+
+&lt;p&gt;有的时候过上一个大节，回来之后反而更累了…&lt;/p&gt;
+
+&lt;h2 id=&quot;3理想和钱&quot;&gt;3、理想和钱&lt;/h2&gt;
+
+&lt;p&gt;上一个去公园玩的时候，看到一个小朋友和她爷爷对话，爷爷问了孩子一个问题：你长大了想做什么？&lt;/p&gt;
+
+&lt;p&gt;孩子，答道：我长大了想成为一名大富翁，孩子才5岁，正准备上小学一年级…&lt;/p&gt;
+
+&lt;p&gt;这不是一个小孩的想法，这是中国90%以上人的想法，也不是说这个想法不对，我也不是清高自己也想暴富，也想成为大富翁。&lt;/p&gt;
+
+&lt;p&gt;但是如果整个社会，所以的人都在想成为富豪，特别是这么小的小孩子就想成为富豪，而不是其它，总感觉有点怪怪的。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/lixiang/lixiang03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;全球幸福感最高的国家是丹麦，第一，国家社会福利比较好，贫富差距很小；第二，各种假期非常多，极为注重家庭生活。&lt;/p&gt;
+
+&lt;p&gt;幸福最开始和钱关系极大，但如果满足日常生活之后，金钱的大幅度增加和幸福感的相关性就会越来越低。&lt;/p&gt;
+
+&lt;h2 id=&quot;4幸福感&quot;&gt;4、幸福感&lt;/h2&gt;
+
+&lt;p&gt;回到前面的主题，每个人的目标感不一样，每个人对幸福的感知也不一样，也许那种打打游戏，轻松生活就会感到幸福。&lt;/p&gt;
+
+&lt;p&gt;努力上进感到满足是一种幸福感，和别人打游戏废柴也许也是一种幸福感，选择努力前进，这很好，但并不能说那些不前进的人不对。&lt;/p&gt;
+
+&lt;p&gt;但还有另外一种普遍的情况，很多人都有普遍的迷茫和焦虑感，特别是自己独处或者停下来的时候。&lt;/p&gt;
+
+&lt;p&gt;这个时候就特别喜欢用忙来代替这种焦躁感，沉迷于“奶头乐”经济中不能自拔，忙完之后尽是空虚。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/lixiang/lixiang04.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;还有一个网友说的很好：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;人的变成熟的特征之一，就是认识到自己只是平凡众生中普普通通一员。&lt;/p&gt;
+
+  &lt;p&gt;中年危机的源来之一，是突然意识到自己的平凡，但还放不下曾经的梦想。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;不做“奋斗逼”，也不要“奶头乐”，找到你的目标享受并往前走。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&amp;lt; 今日开源项目推荐 &amp;gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Spring Boot 电商系统&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;大家可能不知道，这个项目是 Spring Boot 标签里面 Star 人数最多的一个开源项目，足足有 4万 多人关注。&lt;/p&gt;
+
+&lt;p&gt;而且这个开源项目是国人写的，包含了一个 Web 段的购物平台，一个 H5的购物平台，还有一后台管理系统，可以基本包含了电商的基础元素。&lt;/p&gt;
+
+&lt;p&gt;整个项目用的技术栈也非常丰富，各种常用的中间件、数据库、缓存、消息组件的集成、前端使用 Vue ，Java 程序员最应该关注的一个开源项目。&lt;/p&gt;
+
+&lt;p&gt;项目架构截图：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/lixiang/lixiang05.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;项目地址：关注下方公众，回复：310&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/lixiang/lixiang06.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;长按上方二维码 2 秒,回复「310」即可获取项目&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Sun, 13 Sep 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/life/2020/09/13/lixiang.html</link>
+        <guid isPermaLink="true">http://localhost:4000/life/2020/09/13/lixiang.html</guid>
+        
+        <category>life</category>
+        
+        
+        <category>life</category>
+        
+      </item>
+    
+      <item>
+        <title>加州山火创历史之最，有点像世界末日！</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/jiazhou/jiazhou01.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;昨天在网上突然看到一组照片，场面犹如世界末日一般，天空是红色的、城市也是红色的。&lt;/p&gt;
+
+&lt;p&gt;查了一下美国加州又出现山火了，并且创造了历史之最。&lt;/p&gt;
+
+&lt;p&gt;据报道，2020年以来，该州的山火已导致8人死亡，烧毁逾220万英亩(约8903平方千米)土地和超过3300栋建筑。&lt;/p&gt;
+
+&lt;p&gt;给大家看看惨烈的场景：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/jiazhou/jiazhou02.jpg&quot; alt=&quot;&quot; /&gt; 
+&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/jiazhou/jiazhou03.jpg&quot; alt=&quot;&quot; /&gt; 
+&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/jiazhou/jiazhou04.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;从飞机上看地面是这个样子：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/jiazhou/jiazhou05.jpg&quot; alt=&quot;&quot; /&gt; 
+&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/jiazhou/jiazhou06.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;消防员出动直升机救火&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/jiazhou/jiazhou07.jpg&quot; alt=&quot;&quot; /&gt; 
+&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/jiazhou/jiazhou08.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;民众逃离危险区域&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/jiazhou/jiazhou09.jpg&quot; alt=&quot;&quot; /&gt; 
+&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/jiazhou/jiazhou10.jpg&quot; alt=&quot;&quot; /&gt; 
+&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/jiazhou/jiazhou11.jpg&quot; alt=&quot;&quot; /&gt; 
+&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/jiazhou/jiazhou12.jpg&quot; alt=&quot;&quot; /&gt; 
+&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/jiazhou/jiazhou13.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;根据网上的信息得知，加州经常会出现火灾，只是这次灾况程度是往年的20倍左右。&lt;/p&gt;
+
+&lt;p&gt;网友分析的原因大概有这么几种：&lt;/p&gt;
+
+&lt;p&gt;1、电路短路导致的山火，加州很多电路经过树林，脱落的树枝挂载在电线上，导致电路短路发生火灾。&lt;/p&gt;
+
+&lt;p&gt;因为美国有很多组织，想解决这个问题并不容易，树不能随便砍，旧的电力系统也没办法大力改建，导致这个问题不能彻底解决。&lt;/p&gt;
+
+&lt;p&gt;2、还有一种可能是因为闪电，导致引发树林的火灾。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/jiazhou/jiazhou14.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;其实发生如此大的火灾，在国内的话早被大家大肆报道，不知道要挖出多少个新闻来，但是美国人的生活态度和我们不一样。&lt;/p&gt;
+
+&lt;p&gt;去年在美国黄石公园旅行的时候，看到周边很多的山都是光秃秃的，导游说这里前几年刚发生过火灾，现在正在慢慢自我修复。&lt;/p&gt;
+
+&lt;p&gt;美国特别崇尚大自然的力量，认为火灾也是属于大自然生态修复的一部分，只需要确保它不会伤及到人类，基本上就让火自生自灭。&lt;/p&gt;
+
+&lt;p&gt;这其实就是不同国家对待大自然的不同态度，这要是我国的话，肯定会调集各种力量几天内将问题解决。&lt;/p&gt;
+
+&lt;p&gt;在集中调配力量彻底解决火灾隐患的同时，出现这样大的事情，肯定也会有对应的上级部门领导下台几个。&lt;/p&gt;
+
+&lt;p&gt;这就是不同国情下的不同处理方式，谈不上谁的更先进更好，找到最符合自己国情的处理方式即可。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;更多精彩推荐&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;今天推荐一个“PPT 超级市场”&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;PPT 超级市场是一个完全免费的 PPT 模板下载网站。它主要的特点就是每一个 PPT 模板的质量都是极高，并且非常精美。&lt;/p&gt;
+
+&lt;p&gt;对于每个上班族来讲，如果可以找到一个精美的PPT模板，在公司演讲或者分享的时候真的是事半功倍。&lt;/p&gt;
+
+&lt;p&gt;这个网站非常的简洁，只有一个搜索框只需要大家输入关键字，就可以找到对应的PPT模板并免费下载。&lt;/p&gt;
+
+&lt;p&gt;网站截图：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/jiazhou/jiazhou15.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;网站地址：关注下方公众号，回复：312&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/dagedu/dagedu09.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;长按上方二维码 2 秒,回复「312」即可获取&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Sat, 12 Sep 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/life/2020/09/12/jiazhou.html</link>
+        <guid isPermaLink="true">http://localhost:4000/life/2020/09/12/jiazhou.html</guid>
+        
+        <category>life</category>
+        
+        
+        <category>life</category>
+        
+      </item>
+    
+      <item>
+        <title>华为鸿蒙，告别 PPT，代码全部开源！</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/hongmeng/hongmeng01.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;鸿蒙2.0 终于来了！&lt;/p&gt;
+
+&lt;h2 id=&quot;1第三极操作系统&quot;&gt;1、第三极操作系统&lt;/h2&gt;
+
+&lt;p&gt;就在昨天，余承东在华为开发者大会2020上宣布，鸿蒙2.0（HarmonyOS 2.0）系统正式发布！&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/hongmeng/hongmeng02.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;并且到明年的时候，华为的手机将全面开始支持鸿蒙系统，鸿蒙虽然有点迟到，但最终没有缺席。&lt;/p&gt;
+
+&lt;p&gt;2019年8月9日华为宣布发布鸿蒙OS的时候，互联网上一片嘲讽，有的说鸿蒙是PPT产品，&lt;strong&gt;有的说无代码开源就是作。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/hongmeng/hongmeng03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;希望这次可以平息这些争议，说几句总是很容易的事情，但是真正实干一个操作系统，这个难度真正懂行的人可以想象。&lt;/p&gt;
+
+&lt;p&gt;另外，开发一个操作系统不是最难的，最难的是如何在操作系统之上构建出一套生态来，比较好的消息是一些国内厂商也在尝试适配鸿蒙 OS。&lt;/p&gt;
+
+&lt;p&gt;很期待鸿蒙全部适配后，&lt;strong&gt;有望成为世界第三大操作系统。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2鸿蒙-20&quot;&gt;2、鸿蒙 2.0&lt;/h2&gt;
+
+&lt;p&gt;我们来重点说说这次发布的鸿蒙 2.0。&lt;/p&gt;
+
+&lt;p&gt;余承东曾经说过，如果 HarmonyOS 1.0 是面向未来的分布式操作系统， HarmonyOS 2.0 就是全面使能全场景生态的操作系统。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/hongmeng/hongmeng04.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;鸿蒙开发IED&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;鸿蒙1.0 宣布之后引发大家争的原因是：&lt;/p&gt;
+
+&lt;p&gt;没有完整的开发文档、详细的架构设计说明，没有配套的 IDE，没有可编译运行的 DEMO，所以看起来非常简陋，导致大家说它是 PPT 发布。&lt;/p&gt;
+
+&lt;p&gt;但是&lt;strong&gt;鸿蒙 2.0 这次都有了。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;比较完善的开发文档，专有的开发 IED，已经可以用来演示的 Demo ，也保护了全部开放的开源代码。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/hongmeng/hongmeng05.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;整体的技术架构设计图&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/hongmeng/hongmeng06.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;文档代码全部开源，并且将开源项目托管到开源组织旗下。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/hongmeng/hongmeng07.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;这才是一个大型开源系统的样子。&lt;/p&gt;
+
+&lt;h2 id=&quot;3鸿蒙的未来&quot;&gt;3、鸿蒙的未来&lt;/h2&gt;
+
+&lt;p&gt;大家知道，鸿蒙最初并不是为了给手机准备的，最初设计是运行在智能硬件上的一个低功耗分布式操作系统。&lt;/p&gt;
+
+&lt;p&gt;但是由于美国的制裁，华为将不能使用谷歌的安卓系统，于是加速开发使鸿蒙系统可支持手机，到最后可支持全场景。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/hongmeng/hongmeng08.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;在昨天的发布会上，华为也公开了 HarmonyOS 的开源计划：&lt;/p&gt;
+
+&lt;p&gt;2020 年 9 月 10 日面向内存 128KB-128MB 终端设备、2021 年 4 月面向内存 128MB-4GB 终端设备、2021 年 10 月面向 4GB 以上的所有设备。&lt;/p&gt;
+
+&lt;p&gt;鸿蒙的官方文档中说到：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;HarmonyOS是一款“面向未来”、面向全场景（移动办公、运动健康、社交通信、媒体娱乐等）的分布式操作系统。在传统的单设备系统能力的基础上，HarmonyOS提出了基于同一套系统能力、适配多种终端形态的分布式理念，能够支持多种终端设备。
+我用的手机是华为 Mate30pro，如果最新的EUI升级可以支持，我会第一时间试用，到时候再给大家聊聊感受。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;虽然鸿蒙2.0的发布非常振奋人心，但是鸿蒙的路其实才刚刚开始，我们拭目以待，期待它能迅速成长，走出国门。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;没有人能够熄灭满天星光，每一位开发者都是星星之火！&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&amp;lt; 鸿蒙相关内容推荐 &amp;gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;有关鸿蒙的资料&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;我在网上收集了关于鸿蒙的相关内容，包含鸿蒙的官方开发文档、开源项目地址、鸿蒙的发布会等信息。&lt;/p&gt;
+
+&lt;p&gt;目前仍然还在收集中，准备建立一个关于鸿蒙的知识库，让大家可以一次从整体了解到鸿蒙的现状和发展。&lt;/p&gt;
+
+&lt;p&gt;感兴趣的朋友，获取方式关注下方公号，对话框中回复：&lt;strong&gt;鸿蒙&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/dagedu/dagedu09.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;作者简介：纯洁的微笑，&lt;a href=&quot;http://www.ityouknow.com/life/2020/03/25/fengkou-10year.html&quot;&gt;一个有故事的程序员&lt;/a&gt;。曾在互联网金融，第三方支付公司工作，现为一名自由职业者，和你一起用技术的角度去看这个世界。我的微信号puresmilea，欢迎大家找我聊天，记录你我的故事。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/it/2020/09/10/hongmeng.html</link>
+        <guid isPermaLink="true">http://localhost:4000/it/2020/09/10/hongmeng.html</guid>
+        
+        <category>it</category>
+        
+        
+        <category>it</category>
+        
+      </item>
+    
+  </channel>
+</rss>
