@@ -3,10 +3,10 @@
   <channel>
     <title>潘帅的博客</title>
     <description>本站是潘帅技术分享博客。内容涵盖生活故事、后端技术、微服务架构、大数据演进、高可用架构、中间件使用、系统监控等相关的研究与知识分享。</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 27 Sep 2020 11:29:34 +0800</pubDate>
-    <lastBuildDate>Sun, 27 Sep 2020 11:29:34 +0800</lastBuildDate>
+    <link>https://panshuai1121.github.io/</link>
+    <atom:link href="https://panshuai1121.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 27 Sep 2020 11:38:09 +0800</pubDate>
+    <lastBuildDate>Sun, 27 Sep 2020 11:38:09 +0800</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -14,8 +14,8 @@
         <description>
 </description>
         <pubDate>Sun, 27 Sep 2020 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/php/2020/09/27/php-001.html</link>
-        <guid isPermaLink="true">http://localhost:4000/php/2020/09/27/php-001.html</guid>
+        <link>https://panshuai1121.github.io/php/2020/09/27/php-001.html</link>
+        <guid isPermaLink="true">https://panshuai1121.github.io/php/2020/09/27/php-001.html</guid>
         
         
         <category>php</category>
@@ -138,8 +138,8 @@
 
 </description>
         <pubDate>Wed, 23 Sep 2020 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/it/2020/09/23/fuhuo.html</link>
-        <guid isPermaLink="true">http://localhost:4000/it/2020/09/23/fuhuo.html</guid>
+        <link>https://panshuai1121.github.io/it/2020/09/23/fuhuo.html</link>
+        <guid isPermaLink="true">https://panshuai1121.github.io/it/2020/09/23/fuhuo.html</guid>
         
         <category>it</category>
         
@@ -242,8 +242,8 @@
 
 </description>
         <pubDate>Tue, 22 Sep 2020 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/life/2020/09/22/shanku.html</link>
-        <guid isPermaLink="true">http://localhost:4000/life/2020/09/22/shanku.html</guid>
+        <link>https://panshuai1121.github.io/life/2020/09/22/shanku.html</link>
+        <guid isPermaLink="true">https://panshuai1121.github.io/life/2020/09/22/shanku.html</guid>
         
         <category>life</category>
         
@@ -930,8 +930,8 @@
 
 </description>
         <pubDate>Tue, 22 Sep 2020 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/life/2020/09/22/libin.html</link>
-        <guid isPermaLink="true">http://localhost:4000/life/2020/09/22/libin.html</guid>
+        <link>https://panshuai1121.github.io/life/2020/09/22/libin.html</link>
+        <guid isPermaLink="true">https://panshuai1121.github.io/life/2020/09/22/libin.html</guid>
         
         <category>life</category>
         
@@ -1083,8 +1083,8 @@
 &lt;p&gt;&lt;img src=&quot;http://favorites.ren/assets/images/2020/it/fanzhuan/fanzhuan09.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 20 Sep 2020 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/life/2020/09/20/fanzhuan.html</link>
-        <guid isPermaLink="true">http://localhost:4000/life/2020/09/20/fanzhuan.html</guid>
+        <link>https://panshuai1121.github.io/life/2020/09/20/fanzhuan.html</link>
+        <guid isPermaLink="true">https://panshuai1121.github.io/life/2020/09/20/fanzhuan.html</guid>
         
         <category>life</category>
         
@@ -1173,8 +1173,8 @@
 
 </description>
         <pubDate>Sat, 19 Sep 2020 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/life/2020/09/19/xiashou.html</link>
-        <guid isPermaLink="true">http://localhost:4000/life/2020/09/19/xiashou.html</guid>
+        <link>https://panshuai1121.github.io/life/2020/09/19/xiashou.html</link>
+        <guid isPermaLink="true">https://panshuai1121.github.io/life/2020/09/19/xiashou.html</guid>
         
         <category>life</category>
         
@@ -1303,8 +1303,8 @@
 &lt;/blockquote&gt;
 </description>
         <pubDate>Tue, 15 Sep 2020 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/life/2020/09/15/likaifu.html</link>
-        <guid isPermaLink="true">http://localhost:4000/life/2020/09/15/likaifu.html</guid>
+        <link>https://panshuai1121.github.io/life/2020/09/15/likaifu.html</link>
+        <guid isPermaLink="true">https://panshuai1121.github.io/life/2020/09/15/likaifu.html</guid>
         
         <category>life</category>
         
@@ -1436,8 +1436,8 @@
 &lt;/blockquote&gt;
 </description>
         <pubDate>Sun, 13 Sep 2020 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/life/2020/09/13/lixiang.html</link>
-        <guid isPermaLink="true">http://localhost:4000/life/2020/09/13/lixiang.html</guid>
+        <link>https://panshuai1121.github.io/life/2020/09/13/lixiang.html</link>
+        <guid isPermaLink="true">https://panshuai1121.github.io/life/2020/09/13/lixiang.html</guid>
         
         <category>life</category>
         
@@ -1530,8 +1530,8 @@
 
 </description>
         <pubDate>Sat, 12 Sep 2020 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/life/2020/09/12/jiazhou.html</link>
-        <guid isPermaLink="true">http://localhost:4000/life/2020/09/12/jiazhou.html</guid>
+        <link>https://panshuai1121.github.io/life/2020/09/12/jiazhou.html</link>
+        <guid isPermaLink="true">https://panshuai1121.github.io/life/2020/09/12/jiazhou.html</guid>
         
         <category>life</category>
         
@@ -1639,8 +1639,8 @@
 
 </description>
         <pubDate>Thu, 10 Sep 2020 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/it/2020/09/10/hongmeng.html</link>
-        <guid isPermaLink="true">http://localhost:4000/it/2020/09/10/hongmeng.html</guid>
+        <link>https://panshuai1121.github.io/it/2020/09/10/hongmeng.html</link>
+        <guid isPermaLink="true">https://panshuai1121.github.io/it/2020/09/10/hongmeng.html</guid>
         
         <category>it</category>
         
