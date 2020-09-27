@@ -62,13 +62,38 @@
           </script>
           <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
         {% endif %}
-        <script src="https://utteranc.es/client.js"
-        repo="panshuai1121/blog-comment"
-        issue-term="pathname"
-        label="✨💬✨"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-      </script>
+      {% endif %}
+    {% when 'gitment' %}
+        <div id="container"></div>
+        <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+        <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+        <script>
+        var gitment = new Gitment({
+            id: '{{ page.url }}',
+            owner: '{{ site.gitment.owner }}',
+            repo: '{{ site.gitment.repo }}',
+            oauth: {
+                client_id: '{{ site.gitment.oauth.client_id }}',
+                client_secret: '{{ site.gitment.oauth.client_secret }}',
+            },
+        })
+        gitment.render('container')
+        </script>
+    {% when 'gitalk' %}
+        <div id="gitalk-container"></div>
+        <script src="/assets/js/gitalk.min.js"></script>
+        <script>
+        var gitalk = new Gitalk({
+            id: '{{ page.url }}',
+            clientID: '{{ site.gitalk.clientID }}',
+            clientSecret: '{{ site.gitalk.clientSecret }}',
+            repo: '{{ site.gitalk.repo }}',
+            owner: '{{ site.gitalk.owner }}',
+            admin: ['{{ site.gitalk.owner }}'],
+            labels: ['gitment'],
+            perPage: 50,
+        })
+        gitalk.render('gitalk-container')
+        </script>
   {% endcase %}
 {% endif %}
